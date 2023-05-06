@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Generate a</h1>
+            <h1>random password 🔑</h1>
+            <p>Never use an insecure password again 🔁.</p>
+        </div>
+        <div class="middle">
+            <div class="checkbox">
+                <h1>Choose the elements to include in password ✅</h1>
+                <div class="elements">
+                    <div class="check">
+                        <input type="checkbox" id="abc" name="abc" value="abc" checked>
+                        <label for="abc">abc</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="ABC" name="ABC" value="ABC">
+                        <label for="ABC">ABC</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="num" name="123" value="123">
+                        <label for="num">123</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="sym" name="!#&" value="!#&">
+                        <label for="sym">!#&</label>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <h1>Choose the length of password 📏</h1>
+                <div class="slide">
+                    <input type="range" min="0" max="100" step="1" id="slider" value="15">
+                    <div class="value" id="output">15</div>
+                </div>
+            </div>
+            <div class="generator">
+                Generate password 🔒
+            </div>
+        </div>
+        <div class="footer">
+            <div class="box">
+                <div class="text" id="text1"></div>
+                <div class="icon" id="icon1">📋</div>
+                <div class="icon" id="download1">⬇️</div>
+            </div>
+            <div class="box">
+                <div class="text" id="text2"></div>
+                <div class="icon" id="icon2">📋</div>
+                <div class="icon" id="download2">⬇️</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
